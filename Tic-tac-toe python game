@@ -71,8 +71,8 @@ def check_winner(): #function checks for a winner by four ways (vertically, hori
     
         elif empty_spaces() is False: #if there are no empty spaces
             return "Tie"
-        else:
-            return False #no winner or tie
+       
+    return False #no winner or tie
     
 def empty_spaces():
     spaces = 9 #number of spaces on the board
