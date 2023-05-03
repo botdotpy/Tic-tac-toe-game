@@ -114,7 +114,7 @@ restart_button.pack(side="top")
 frame = Frame(window)
 frame.pack()
 
-#adding the buttons to the frame with a for nested loop instead of creating six buttons manually using grid
+#adding the buttons to the frame with a for loop instead of creating six buttons manually using grid
 for row in range(3):
     for column in range(3):
         game_buttons[row][column] = Button(frame, text="", font=('Consolas', 40), width=5, height=2,
