@@ -1,2 +1,2 @@
 # Tic-tac-toe-game
-Tic-tac-toe python program created using the tkinter library.
+Tic-tac-toe game created using the tkinter library.
